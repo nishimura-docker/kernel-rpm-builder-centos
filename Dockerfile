@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos
 WORKDIR /root/
 RUN yum install -y rpmdevtools gcc make rpm-build yum-utils epel-release
 
